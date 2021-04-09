@@ -14,17 +14,17 @@ window.onmousemove = function () {
             pupil.style.bottom = ((mouseY/10) + "px");
         }
         else {
-            pupil.style.width= `${mouseY / 8}px`;
-            pupil.style.height= `${mouseY / 8}px`;
+            pupil.style.width= `${mouseY / 12}px`;
+            pupil.style.height= `${mouseY / 12}px`;
         }
     }
     else {
         pupil.style.top = ((mouseY / 20) +  "px");
-        pupil.style.width = 23 +"px";
-        pupil.style.height = 23 +"px";
+        pupil.style.width = 30 +"px";
+        pupil.style.height = 30 +"px";
     }
     pupil.style.left = ((mouseX/50) +  "px");
-    badura.style.top = ((mouseY/50) + 10 + "px");
+    badura.style.top = ((mouseY/70) + 10 + "px");
     badura.style.left = ((mouseX/65)  + 10 + "px");
 }
 
