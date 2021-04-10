@@ -21,7 +21,7 @@
         position: absolute;
         width: 108px;
         z-index: 4;
-    }
+        }
     .pupil {
         position: absolute;
         z-index: 2;
@@ -33,6 +33,13 @@
         left: 15px;
         top: 18px;
 
+    }
+    .eye-wrapper2 {
+        position: relative;
+        width: 140px;
+        margin: 50px auto;
+        height: 80px;
+        overflow: hidden;
     }
     .badura {
         position: absolute;
@@ -48,6 +55,53 @@
 
     }
     .closeEye {
+        width: 66%;
+        display: block;
+        background: black;
+        position: absolute;
+        top: 9px;
+        left: 6px;
+        border-radius: 50%;
+        transform: rotate(
+                -16deg
+        );
+        transition: all 120ms;
+        z-index: 2;
+        box-sizing: border-box;
+        padding: 0px 5px;
+
+    }
+ .eye2 {
+        position: absolute;
+        width: 108px;
+        z-index: 4;
+        }
+    .pupil2 {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        transition: all 200ms;
+        object-fit: contain;
+        width: 15px;
+        height: 15px;
+        left: 15px;
+        top: 18px;
+
+    }
+    .badura2 {
+        position: absolute;
+        display: block;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: black;
+        left: 29px;
+        top: 10px;
+        overflow: hidden;
+        transition: all 200ms;
+
+    }
+    .closeEye2 {
         width: 66%;
         display: block;
         background: black;
@@ -89,6 +143,16 @@
 
 
 
+
+</div>
+<div class="eye-wrapper2">
+    <img src="tvali2.png" alt="" class="eye2">
+    <div class="eye-movement">
+        <span class="badura" class="badura2">
+            <img src="pupil.png" alt="" class="pupil2">
+        </span>
+        <span class="closeEye2"></span>
+    </div>
 </div>
 <div class="password">
     <input type="Password" id="password"> Type Your Password
