@@ -3,7 +3,6 @@ const password = document.getElementById("password");
 const badura = document.querySelector(".badura");
 const closeEye = document.querySelector(".closeEye")
 
-console.log(badura.getBoundingClientRect())
 window.onmousemove = function () {
     let mouseX = event.clientX.toString();
     let mouseY = event.clientY.toString();
@@ -24,7 +23,7 @@ window.onmousemove = function () {
         pupil.style.height = 30 +"px";
     }
     pupil.style.left = ((mouseX/50) +  "px");
-    badura.style.top = ((mouseY/70) + 10 + "px");
+    badura.style.top = ((mouseY/180) + 10 + "px");
     badura.style.left = ((mouseX/65)  + 10 + "px");
 }
 
