@@ -6,17 +6,26 @@
 </head>
 <style>
     body {
-        background: orange;
+        background: white;
         margin:0;
         padding:0;
     }
     .eye-wrapper {
         position: relative;
         width: 140px;
-        margin: 50px auto;
         height: 80px;
         overflow: hidden;
+        margin-left: 2px;
+        margin-top: 15px;
     }
+    .logo {
+        display: flex;
+        align-items:center;
+    }
+    .logo-img {
+        width: 360px;
+    }
+
     .eye {
         position: absolute;
         width: 108px;
@@ -132,28 +141,20 @@
 
 </style>
 <body>
-<div class="eye-wrapper">
-    <img src="tvali.png" alt="" class="eye">
-    <div class="eye-movement">
+<div class="logo">
+    <img src="logo.png" alt="" class="logo-img">
+    <div class="eye-wrapper">
+        <img src="tvali2.png" alt="" class="eye">
+        <div class="eye-movement">
         <span class="badura" class="badura">
             <img src="pupil.png" alt="" class="pupil">
         </span>
-        <span class="closeEye"></span>
-    </div>
-
-
-
-
-</div>
-<div class="eye-wrapper2">
-    <img src="tvali2.png" alt="" class="eye2">
-    <div class="eye-movement">
-        <span class="badura2" >
-            <img src="pupil.png" alt="" class="pupil2">
-        </span>
-        <span class="closeEye2"></span>
+            <span class="closeEye"></span>
+        </div>
     </div>
 </div>
+
+
 <div class="password">
     <input type="Password" id="password"> Type Your Password
 </div>
